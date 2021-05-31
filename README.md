@@ -3,6 +3,13 @@ New computer setup (steps, toys, dotfiles etc).
 
 ## WSL2
 
+### Prevent idle SSH connections from disconnecting
+
+Edit /etc/ssh/ssh_config
+```
+ServerAliveInterval 120
+TCPKeepAlive yes
+```
 
 ## PHPStorm
 
